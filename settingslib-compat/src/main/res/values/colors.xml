@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Provided upstream by LineagePreferenceLib; used by
+         CustomSeekBarPreference for the disabled +/- icons. -->
+    <color name="disabled_text_color">#61000000</color>
+</resources>

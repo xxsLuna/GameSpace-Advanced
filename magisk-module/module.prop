@@ -1,0 +1,6 @@
+id=gamespace_burnin_guard
+name=GameSpace Burn-In Guard
+version=14.0-bg1
+versionCode=999999
+author=GameSpace BurnIn Guard contributors
+description=GameSpace with OLED burn-in guard: Galaxy-style overlay lock, Xiaomi-style backlight off, AFK power save. Replaces the ROM GameSpace as a system overlay.

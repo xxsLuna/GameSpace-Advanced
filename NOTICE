@@ -1,0 +1,30 @@
+GameSpace Burn-In Guard
+Copyright (C) 2026 Burn-In Guard contributors
+
+This product includes software developed as a modification of:
+
+  GameSpace — https://github.com/chaldeaprjkt/GameSpace
+  Copyright (C) Chaldeaprjkt and contributors
+  Licensed under the Apache License, Version 2.0.
+
+  crDroid Android GameSpace fork — https://github.com/crdroidandroid/android_packages_apps_GameSpace
+  Copyright (C) The LineageOS Project / crDroid Android Project (branch 14.0)
+  Licensed under the Apache License, Version 2.0.
+
+Modifications in this repository (2026):
+  - Standalone Gradle (AGP 8.7) build replacing the Android/AOSP build, with
+    compileOnly API stubs (stubs/) and bundled SettingsLib/LineagePreference
+    compatibility shims (settingslib-compat/) replacing the statically linked
+    AOSP/Lineage libraries. Hidden framework APIs are called through a
+    reflection bridge (io.chaldeaprjkt.gamespace.utils.HiddenApi) with
+    public-API fallbacks.
+  - New OLED burn-in guard features (io.chaldeaprjkt.gamespace.burnin):
+    Galaxy-style black overlay lock, Xiaomi-style root backlight off, idle
+    auto-entry, CPU/GPU clock and refresh-rate capping.
+  - Magisk/KernelSU module packaging (magisk-module/).
+  - Signed with the public AOSP test key (app/platform.jks, as shipped
+    upstream) — versionCode 999999.
+
+The upstream Apache-2.0 license text (LICENSE) applies to all upstream code.
+NOTICE attributions are provided in the spirit of, but are not required by,
+Apache-2.0 §4(d).

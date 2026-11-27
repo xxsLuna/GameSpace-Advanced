@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accepted (and ignored) by our IllustrationPreference stand-in so that
+         GameSpace's root_preferences.xml keeps inflating unchanged. -->
+    <declare-styleable name="IllustrationPreference">
+        <attr name="lottie_rawRes" format="reference" />
+    </declare-styleable>
+</resources>

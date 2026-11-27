@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme.SubSettingsBase replacement: GameSpace's GameSpaceTheme parents
+         from it. A Material3 day/night base keeps the settings UI usable. -->
+    <style name="Theme.SubSettingsBase" parent="Theme.Material3.DayNight">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+</resources>
